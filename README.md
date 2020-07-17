@@ -25,6 +25,14 @@ This is Online Multiplayer Tic-Tac-Toe Game with [Server File](https://github.co
        -Enter following Command:
          >pip install pygame
 
+**How to Run Game:**
+
+-  In [Network.py](https://github.com/RajatLeo/Multiplayer-Tic-Tac-Toe/blob/master/Network.py), at line 7 (i.e. self.server = "Enter Your Server Address") you need to enter IP address of server on which [Server.py](https://github.com/RajatLeo/Multiplayer-Tic-Tac-Toe/blob/master/Server.py) is going to run. IP is string Value so don't remove double quote.
+
+- First Run [Server.py](https://github.com/RajatLeo/Multiplayer-Tic-Tac-Toe/blob/master/Server.py) on server and then run [Client.py](https://github.com/RajatLeo/Multiplayer-Tic-Tac-Toe/blob/master/Client.py) so that Client can connect to server.
+
+- Since it is Online Multiplayer Game, and so Internet is required to run this game.
+
 
 **Author:**
 
